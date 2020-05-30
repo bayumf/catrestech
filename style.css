@@ -1,0 +1,81 @@
+body{
+	
+	font: 16px/34px arial, sans-serif;
+	background-color: darkred;
+	background-image: maroon;
+	margin-right: 20px;
+
+}
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: oldlace;
+
+}
+
+.header{
+	padding: 70px;
+	padding-bottom: 0px;
+}
+.header h1{
+	position: absolute;
+	left: 500px;
+}
+.header ul li{
+	display: inline;
+	margin-right: 10px;
+}
+.header a{
+	text-decoration: none;
+	color: maroon;
+}
+.header a:hover{
+	background-color: maroon;
+	color: snow;
+
+}
+.hero{
+	height: 350px;
+	background-image: url(pulaumiangas.jpg);
+	background-size: 800px;
+	background-position: 0 -50px;
+	border-top: 5px solid maroon;
+	border-bottom: 5px solid maroon;
+}
+.content{
+	padding: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.content h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size: 11px;
+	margin-top: -20px
+}
+.content .penulis a{
+	color: maroon;
+	text-decoration: none;
+}
+.content p{
+	font-size: 14px;
+	text-align: justify;
+}
+.content ul li{
+	font-size: 14px;
+	text-align: justify;
+}
+.footer{
+	background-color: maroon;
+	padding: 3px;
+}
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+.footer .copy a{
+	text-decoration: none;
+}
